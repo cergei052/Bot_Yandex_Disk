@@ -16,8 +16,7 @@ from vk_api.keyboard import VkKeyboard, VkKeyboardColor
 
 # Токен доступа сообщества — секретный ключ для работы с API
 # Получить можно в: Управление сообществом → Работа с API → Ключи доступа
-TOKEN = "vk1.a.VQmhx0icZxykcoKJx38g_mCamASHaKvAp1TzlNIl8hXrSoEtn_1vGELgPGsE8bsUMN1HQOVsxyl5yCj1D9kEURUq88KjBsslsc6pVL0D06fA8YLbStZ-SxFX_YEdj8VNiCtp1qZaRXZaFkEVkG-Bjj5SJ3PKm0XR8fuyK08Sj7k9-JdJD8wSBEGZ1RSqW72Lna3X2-UqwVOjdDdYrubSTg"
-
+TOKEN = ""
 
 # Создаём сессию — устанавливаем соединение с VK через токен
 vk_session = vk_api.VkApi(token=TOKEN)
